@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Wiget pogodowy</title>
+    <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+
+    <link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="MaterialDesign-Webfont-master/css/materialdesignicons.min.css" media="all" rel="stylesheet" />
+</head>
+<body>
+
+<h1>Aplikacja Pogodowa</h1>
+<h3>Sprawdź pogodę w wybranym mieście</h3>
+
+ <div class="app">
+	 <div class="up">
+		 <div class="loc">
+			 <h1 id="loc" class="open-button">WARSZAWA</h1>
+			 <div id="listOfCities">
+				<h3>Wybierz miasto <span class="close-button mdi mdi-close mdi-24px"></span></h3>
+				 <ul>
+					 <li data-city="warszawa">Warszawa</li>
+					 <li data-city="gdansk">Gdańsk</li>
+					 <li data-city="wroclaw">Wrocław</li>
+					 <li data-city="katowice">Katowice</li>
+				 </ul>
+			 </div>
+		 </div>
+		 <div class="temp"><span id="cTemp">14</span>&deg;C</div>
+		 <div class="wind">
+			 <span class="mdi mdi-weather-windy mdi-48px"></span>
+			 <span id="windSpeed">X m/s</span>
+			 <div class="directiom"><span id="direction">Północny</span></div>
+		 </div>
+	 </div>
+
+	 <div class="down">
+		 <div class="time"><span id="time">godzina</span></div>
+		 <div class="date"><span id="date">dzien</span></div>
+	 </div>
+</div>
+
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="apps.js"></script>
+
+</body>
+</html>
