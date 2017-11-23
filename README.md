@@ -1,5 +1,3 @@
-# Frontend intern test #
-
-Wiget pogodowy
+# Wiget pogodowy #
 
 Wybierz miasto a następnie sprawdź pogodę.
